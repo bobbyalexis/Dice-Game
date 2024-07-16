@@ -7,7 +7,7 @@ var randomNumber1 = Math.floor(Math.random() * 6) + 1;
 var randomDiceImage = "dice" + randomNumber1 + ".png"; // e.g., "dice3.png"
 
 // Set the src attribute of the left <img> element to the constructed image file name
-document.querySelector(".img1").setAttribute("src", "images/" + randomDiceImage);
+document.querySelector(".img1").setAttribute("src", "image/" + randomDiceImage);
 
 // Generate a random number between 1 and 6
 var randomNumber2 = Math.floor(Math.random() * 6) + 1;
@@ -16,7 +16,7 @@ var randomNumber2 = Math.floor(Math.random() * 6) + 1;
 var randomDiceImage = "dice" + randomNumber2 + ".png"; // e.g., "dice3.png"
 
 // Set the src attribute of the left <img> element to the constructed image file name
-document.querySelector(".img2").setAttribute("src", "images/" + randomDiceImage);
+document.querySelector(".img2").setAttribute("src", "image/" + randomDiceImage);
 
 var heading = document.querySelector("h1");
 
