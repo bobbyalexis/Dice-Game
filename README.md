@@ -1,1 +1,1 @@
-# Dice-Game
+Dice Game is a simple web-based game where two players roll a pair of dice. The player with the higher dice roll wins the game. If both players roll the same number, the game results in a draw. This project is created using HTML, CSS, and JavaScript.
